@@ -102,3 +102,17 @@ h2 {
 article p {
   margin: 0 0 1.5rem;
 }
+
+article a {
+  border: .2rem solid rgba(55, 131, 163, .4);
+  color: #3783a3;
+  text-decoration: none;
+  padding: .5em 1em .6em;
+  margin-top: auto;
+  border-radius: .3rem;
+}
+
+footer {
+  padding: 1rem;
+  border-top: .2rem solid #e2e2e2;
+  text-align: center;
