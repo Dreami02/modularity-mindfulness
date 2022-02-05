@@ -116,3 +116,20 @@ footer {
   padding: 1rem;
   border-top: .2rem solid #e2e2e2;
   text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+header {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1 {
+  align-items: start;
+}
+
+section {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
